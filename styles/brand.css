@@ -165,11 +165,11 @@ img {
 }
 .black
 {
-    background-color: #8bec1b;
+    background-color: hsla(78, 72%, 44%, 0.63);
 }
 .lightgray
 {
-    background-color: #d4a3a3;
+    background-color: #9e464d;
 }
 
 .colors figure {
