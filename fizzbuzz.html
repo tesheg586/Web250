@@ -1,41 +1,50 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<link rel = "stylesheet" type = "text/css" href = "styles/default.css" />
-<title>Teshale Wossoro WEB250 Template</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/brand.css">
 
 </head>
 <body>
+<script>
+  alert("Welcome to TP fruits market");
+</script>
+  <div id ="logo">
+  <img src = "images/logo.png"></div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 
-<header>
-  <h1>Teshale Wossoro WEB250-N80</h1>
-</header>
+</div>
+<div class="bg-image"></div>
 
-<section>
-  <nav>
-    <ul>
-      <li><strong>DBA125</strong> need this course to be database developer.</li>
-            <li><strong>Web250</strong> need this course to perform web development needs as replacement of CTI289.<a href="contract.html"> 
-                    Link to WEB-250 Course Contract.</a></li> 
-            <li><strong>DBA220</strong> need this course to be database developer.</li>
-            <li><strong>DBA285</strong> need this course to be database developer.</li
-    </ul>
-  </nav> 
-  
-  <article>
-    <h1>Links</h1>
-    <ul>
-        <li><a href="https://www.codecademy.com/users/https://www.codecademy.com/profiles/teshalewossoro9288099833/achievements"
-            target="_blank">Codecademy</a></li>
-    </ul>
-  </article>
-</section>
-
-<div data-include="components/footer.html"></div>
- <script src="scripts/htmlinclude.js"></script>    
-
+<div class="bg-text">
+<form method="post" action="/fizz3.php">
+Please enter your number: <input type="number" name="name"><br>
+<input type="submit">
+</form>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<footer>
+				
+	
+</footer>
 </body>
 </html>
+
