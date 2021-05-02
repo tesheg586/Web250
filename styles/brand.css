@@ -109,7 +109,7 @@ p{
 }
 .bottomnav a:active {
 	background-color : black;
-	color : red;
+	color : rgb(41, 11, 212);
    text-align : center;
  }
 
