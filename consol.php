@@ -29,8 +29,7 @@ DOCTYPE html>
 </section>
 
 <footer>
-  <p>Copyright: &copy; 2021 Aris Digital Agency.  All rights reserved.</p>
-  <br/>
+ 
         <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML
         </a>
         <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS
