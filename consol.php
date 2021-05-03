@@ -27,14 +27,10 @@ DOCTYPE html>
     <p></p>
   </article>
 </section>
-
-<footer>
+</main>
  
-        <a href="http://validator.w3.org/check?uri=referer" class="myButton">HTML
-        </a>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer" class="myButton">CSS
-        </a>
-</footer>
+      <div data-include="components/footer.html"></div>
+      <script src="scripts/htmlinclude.js"></script>    
 
 </body>
 </html>
