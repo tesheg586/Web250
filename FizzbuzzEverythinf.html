@@ -1,50 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles/brand.css">
-<title>Teshale Wossoro || WEB250 || fizzBuzz</title>
+<html lang="en">
 
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles/brand_default.css">
+    <title> Fizz Buzz evrything Teshale</title>
+
+  </head>
+
+  
 <body>
-	 <div class="wrapper"> 
-        <div data-include="components/header.html"></div> 
-<script>
-  alert("Learn about false bannana called inset");
-</script>
-  <div id ="logo">
-  <img src = "images/inset.jpg"></div>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
 
-</div>
-<div class="inset.jpg"></div>
-
-<div class="bg-text">
-<form method="post" action="/fizz3.php">
-Please enter your number: <input type="number" name="name"><br>
-<input type="submit">
-</form>
-</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-<div data-include="components/footer.html"></div>
-<script src="scripts/htmlinclude.js"></script>   			
+	<div data-include="components/header_brand.html"></div>
 	
+		
+	<main>
+		<h2>Fizz Buzz Everything</h2>
+		<h2 id="greeting_header">Envited to my FizzBuzz</h2>
+		<form class="fizzbuzz" id="fizzbuzz_form">
+			<div class="name">
+				<label for="webspace">WebSpace:</label>
+				<input type="text" id="introduction" name="introduction" value="About Teshale"><br>
+				<label for="caurseContract">Contract:</label>
+				<input type="text" id="brand" name="brand" value="Mybrand"><br>
+				<label for="fizzbuzz">Fizz Buzz:</label>
+				<input type="text" id="fizzbuzz" name="FizzBuzzEverything" value="S"><br>
+			</div> 
+			<div class="for_list">
+				<div class="words">
+					<div class="word_to_add">
+						<label for="main_word">Main word:</label><br>
+						<input type="text" id="main_word" name="main_word" value="fizzbuzzbang."><br>
+					</div>
+					<div class="word_to_add">
+						<label for="list_length">List length:</label><br>
+						<input type="number" id="list_length" name="list_length" value="110"><br>
+					</div>
+				</div>
+				<div class="words">
+					<div class="word_to_add">
+						<label for="first_word">First word:</label><br>
+						<input type="text" id="first_word" name="first_word" value="fizz."><br>
+					</div>
+					<div class="word_to_add">
+						<label for="first_number">First number:</label><br>
+						<input type="number" id="first_number" name="first_number" value="4"><br>
+					</div>
+				</div>
+				<div class="words">
+					<div class="word_to_add">
+						<label for="second_word">Second word:</label><br>
+						<input type="text" id="second_word" name="second_word" value="buzz."><br>
+					</div>
+					<div class="word_to_add">
+						<label for="second_number">Second number:</label><br>
+						<input type="number" id="second_number" name="second_number" value="6"><br>
+					</div>
+				</div>
+				<div class="words">
+					<div class="word_to_add">
+						<label for="third_word">Third word:</label><br>
+						<input type="text" id="third_word" name="third_word" value="bang."><br>
+					</div>
+					<div class="word_to_add">
+						<label for="third_number">Third number:</label><br>
+						<input type="number" id="third_number" name="third_number" value="8"><br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="buttons_fizzbuzz4">
+				<button type="button" id="submit_fizzbuzz4" onclick="submit_click()">Create list</button>
+				<button type="button" id="modify_fizzbuzz4" onclick="modify_list()">Click to Change</button>
+			</div>
+		</form>
+	
+</main>
+<footer>
+<div data-include="components/footer_brand.html"></div>
+<script src="scripts/htmlinclude.js"></script>
+<script src="scripts/fizzbuzz4.js"></script>
+</footer>
 </body>
 </html>
