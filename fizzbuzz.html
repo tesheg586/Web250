@@ -1,52 +1,48 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles/brand.css">
-<title>Teshale Wossoro || WEB250 || fizzBuzz</title>
+<html lang="en">
 
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles/brand_default.css">
+    <title>Teshale Wossoro Fizz Buzz 1</title>
+
+  </head>
+
+  
 <body>
-	 <div class="wrapper"> 
-        <div data-include="components/header.html"></div> 
-<script>
-  alert("Learn about false bannana called inset");
-</script>
-  <div id ="logo">
-  <img src = "images/inset.jpg"></div>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+	<!-- include header-->
+	<div data-include="components/header_brand.html"></div>
 
-</div>
-<div class="inset.jpg"></div>
-
-<div class="bg-text">
-<form method="post" action="/fizz3.php">
-Please enter your number: <input type="number" name="name"><br>
-<input type="submit">
-</form>
-</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-<div data-include="components/footer.html"></div>
-<script src="scripts/htmlinclude.js"></script>   			
+<main>
+			<h2 class="center"> FizzBuzz!</h2>
+		
+			<h4 id="greeting" class="center">FizzBuzz 1!</h4>
+			<br>
+			<form id="wordform">
+				<fieldset>
+				<legend>Fizz Buzz Words</legend>
+				<div>
+				<label for="firstword">First Word:</label>
+				<input type="text" id="firstword" value="Fizz" required="required">
+				</div><br>
+				<div>
+				<label for="secondword">Second Word:</label>
+				<input type="text" id="secondword" value="Buzz" required="required">
+				</div>
+				<br>
+				<button onclick="displayFizzBuzzNumbers()" type="button">Submit</button>
+				</fieldset>
+			</form>
+			<br>
 	
+			<div id="fizzbuzz"></div>
+		</main>
+	<footer>
+<div data-include="components/footer_brand.html"></div>
+<script src="scripts/htmlinclude.js"></script>
+<script src="scripts/fizzbuzz1.js"></script>
+</footer>
 </body>
 </html>
 
