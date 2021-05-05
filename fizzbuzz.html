@@ -13,6 +13,7 @@
   
 <body>
 	<div data-include="components/header.html"></div>
+<main>
 	<script>
   alert("Learn about false bannana called inset");
 </script>
@@ -27,29 +28,29 @@
     <i class="fa fa-bars"></i>
   </a>
 
-<main>
-			<h2 class="center"> FizzBuzz!</h2>
+
+	<h2 class="center"> FizzBuzz!</h2>
 		
-			<h4 id="greeting" class="center">FizzBuzz 1!</h4>
-			<br>
-			<form id="wordform">
-				<fieldset>
-				<legend>Fizz Buzz Words</legend>
-				<div>
-				<label for="firstword">First Word:</label>
-				<input type="text" id="firstword" value="Fizz" required="required">
-				</div><br>
-				<div>
-				<label for="secondword">Second Word:</label>
-				<input type="text" id="secondword" value="Buzz" required="required">
-				</div>
-				<br>
-				<button onclick="displayFizzBuzzNumbers()" type="button">Submit</button>
-				</fieldset>
-			</form>
-			<br>
-			<div id="fizzbuzz"></div>
-		</main>
+	<h4 id="greeting" class="center">FizzBuzz 1!</h4>
+	<br>
+	<form id="wordform">
+      <fieldset>
+	<legend>Fizz Buzz Words</legend>
+	<div>
+	<label for="firstword">First Word:</label>
+	<input type="text" id="firstword" value="Fizz" required="required">
+	</div><br>
+	<div>
+	<label for="secondword">Second Word:</label>
+	<input type="text" id="secondword" value="Buzz" required="required">
+	</div>
+	<br>
+	<button onclick="displayFizzBuzzNumbers()" type="button">Submit</button>
+	</fieldset>
+	</form>
+	<br>
+	<div id="fizzbuzz"></div>
+</main>
 	<div data-include="components/footer.html"></div>
        <script src="scripts/htmlinclude.js"></script>   	
 </body>
