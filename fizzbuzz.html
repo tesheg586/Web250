@@ -48,32 +48,35 @@ function myFunction() {
   }
 }
 </script>
-<h2 class="center">FizzBuzz!</h2>
-		
-	<h3 id="greeting" class="center">FizzBuzz 1!</h3>
-	<br>
-	<form id="wordform">
-      <fieldset>
-	<legend>Fizz Buzz Words</legend>
-	<div>
-	<label for="firstword">First Word:</label>
-	<input type="text" id="firstword" value="Fizz" required="required">
-	</div><br>
-	<div>
-	<label for="secondword">Second Word:</label>
-	<input type="text" id="secondword" value="Buzz" required="required">
-	</div>
-	<br>
-	<button onclick="displayFizzBuzzNumbers()" type="button">Submit</button>
-	</fieldset>
-	</form>
-	<br>
-
-</main>
-	<div data-include="components/footer.html"></div>
-       <script src="scripts/htmlinclude.js"></script> 
-       <script src="scripts/Fizzbuzz1.js"></script>    
+<h2 class="center"> FizzBuzz!</h2>
+			
+			<!-- Greeting -->
+			<h4 id="greeting" class="center">FizzBuzz 1!</h4>
+			<br>
+			<form id="wordform">
+				<fieldset>
+					<legend>Fizz Buzz Words</legend>
+					<div>
+						<label for="firstword">First Word:</label>
+						<input type="text" id="firstword" value="Fizz" required="required">
+					</div><br>
+					<div>
+						<label for="secondword">Second Word:</label>
+						<input type="text" id="secondword" value="Buzz" required="required">
+					</div>
+					<br>
+					<button onclick="displayFizzBuzzNumbers()" type="button">Submit</button>
+				</fieldset>
+			</form>
+			<br>
+			<div id="fizzbuzz"></div>
+		</main>
+	<footer>
+<div data-include="components/footer_brand.html"></div>
+<script src="scripts/htmlinclude.js"></script>
+<script src="scripts/fizzbuzz1.js"></script>
+</footer>
 </body>
-</html>  
+</html>
 
 
